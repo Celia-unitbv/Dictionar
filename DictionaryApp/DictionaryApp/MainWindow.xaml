@@ -1,0 +1,19 @@
+﻿<Window x:Class="DictionaryApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DictionaryApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525"
+        Topmost="True"
+        WindowStartupLocation="CenterScreen">
+  
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Administrativ" Click="AdminButton_Click" Margin="0 0 0 10"/>
+            <Button Content="Cautare de cuvinte" Click="SearchButton_Click" Margin="0 0 0 10"/>
+            <Button Content="Divertisment" Click="EntertainmentButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
